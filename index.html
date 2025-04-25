@@ -1,0 +1,199 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogFusion - Where Ideas Meet Innovation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">BlogFusion</a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="category.html?cat=technology">Technology</a></li>
+                            <li><a href="category.html?cat=travel">Travel</a></li>
+                            <li><a href="category.html?cat=food">Food</a></li>
+                            <li><a href="category.html?cat=lifestyle">Lifestyle</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to BlogFusion</h1>
+            <p>Where Ideas Meet Innovation</p>
+            <a href="#featured-posts" class="btn">Explore Articles</a>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section id="featured-posts" class="featured-posts">
+        <div class="container">
+            <h2 class="section-title">Featured Posts</h2>
+            <div class="posts-grid">
+                <!-- Post 1 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="images/post1.jpg" alt="The Future of AI">
+                        <span class="category-tag technology">Technology</span>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="posts/post1.html">The Future of AI: What to Expect in 2024</a></h3>
+                        <p class="post-excerpt">Exploring the upcoming trends in artificial intelligence and how they'll impact our daily lives...</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-user"></i> John Doe</span>
+                            <span><i class="far fa-calendar"></i> June 15, 2023</span>
+                            <span><i class="far fa-comment"></i> 12 Comments</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="images/post2.jpg" alt="Hidden Gems in Bali">
+                        <span class="category-tag travel">Travel</span>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="posts/post2.html">Hidden Gems in Bali: Off-the-Beaten-Path Adventures</a></h3>
+                        <p class="post-excerpt">Discover the less touristy but equally breathtaking spots in Bali that most visitors miss...</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-user"></i> Jane Smith</span>
+                            <span><i class="far fa-calendar"></i> May 28, 2023</span>
+                            <span><i class="far fa-comment"></i> 8 Comments</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="images/post3.jpg" alt="Vegan Recipes">
+                        <span class="category-tag food">Food</span>
+                    </div>
+                    <div class="post-content">
+                        <h3><a href="posts/post3.html">5 Easy Vegan Recipes Even Meat-Lovers Will Enjoy</a></h3>
+                        <p class="post-excerpt">These plant-based dishes are so delicious they'll make you forget about meat entirely...</p>
+                        <div class="post-meta">
+                            <span><i class="far fa-user"></i> Mike Johnson</span>
+                            <span><i class="far fa-calendar"></i> April 10, 2023</span>
+                            <span><i class="far fa-comment"></i> 15 Comments</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest posts delivered right to your inbox</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Browse Categories</h2>
+            <div class="categories-grid">
+                <a href="category.html?cat=technology" class="category-card technology">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Technology</h3>
+                    <p>12 Articles</p>
+                </a>
+                <a href="category.html?cat=travel" class="category-card travel">
+                    <i class="fas fa-plane"></i>
+                    <h3>Travel</h3>
+                    <p>8 Articles</p>
+                </a>
+                <a href="category.html?cat=food" class="category-card food">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food</h3>
+                    <p>15 Articles</p>
+                </a>
+                <a href="category.html?cat=lifestyle" class="category-card lifestyle">
+                    <i class="fas fa-heart"></i>
+                    <h3>Lifestyle</h3>
+                    <p>10 Articles</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>About BlogFusion</h3>
+                    <p>BlogFusion is a premier blogging platform where ideas meet innovation. We cover technology, travel, food, and lifestyle topics.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-categories">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="category.html?cat=technology">Technology</a></li>
+                        <li><a href="category.html?cat=travel">Travel</a></li>
+                        <li><a href="category.html?cat=food">Food</a></li>
+                        <li><a href="category.html?cat=lifestyle">Lifestyle</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> info@blogfusion.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Blog Street, Content City</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 BlogFusion. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
